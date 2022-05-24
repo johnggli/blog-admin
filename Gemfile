@@ -34,6 +34,9 @@ group :development, :test do
 
   # RSpec for Rails 5+
   gem 'rspec-rails'
+
+  # Acceptance test framework for web applications
+  gem 'capybara'
 end
 
 group :development do
